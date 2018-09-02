@@ -1,0 +1,9 @@
+.panel-footer a {
+	color:black;
+}
+.panel-footer a:hover {
+	color:orange;
+}
+.panel-heading {
+	font-size:20px;
+}

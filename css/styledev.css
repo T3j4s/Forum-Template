@@ -1,0 +1,35 @@
+.jumbotron {
+background-image:url("https://wallpaperscraft.com/image/lubricated_light_glare_shades_dark_16376_1920x1080.jpg");
+height:400px;
+background-repeat:no-repeat;
+width:100%;
+}
+.jumbotron .header {
+	color:white;
+	
+}
+.jumbotron p {
+	color:white;
+	
+}
+#overflow {
+     overflow:hidden;
+	  height: 230px; 
+}
+#overflow img {
+ transform:translate3d(0px,0px,0px);
+ transition:all 1s cubic-bezier(.05,1.55,.79,-0.32);
+}
+
+ #overflow img:hover {
+  transform:translate3d(0px,-270px,0px);
+ }   
+ 
+ ////////////////////////////////////////////////////////////////////
+ 
+
+.profile  {
+	border:2px solid silver;
+	}
+ 
+ 

@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="image/icon.ico" />
+	<title>Forum Template</title>
+	<link rel="icon" href="Internet.png">
+<script> 
+$(document).ready(function(){
+$('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+</head>
+<body>
+<!--*************************Navigation Bar *************************** -->	
+	<nav class="navbar navbar-inverse navbar-fixed-top"> 
+	<div class="conatainer-fluid"> 
+	<div class="navbar-header">
+	<button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+		 <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+		<a href="#" class="navbar-brand">Forum-Template </a>
+	</div>
+		<div class="collapse navbar-collapse" id="mynavbar">
+		<ul class="nav navbar-nav" >
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Downloads</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Sign in</a></li>
+			<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<span class="caret"></span>&nbsp;&nbsp;</a>
+			<ul class="dropdown-menu"> 
+				<li><a href="#">Donate</a></li>
+				<li><a href="#">Suggest</a></li>
+				<li><a href="#">Feedback</a></li>
+				
+			</ul>
+			</li>
+		</ul>
+	</div>
+	</div>
+	</nav> <div class="clear-fix"> </div>
+<!-- ************************************** Header ****************************** -->	
+<div class="jumbotron text-center" style="background-color:#106b99;color:white;height:350px;">
+	<div class="col-md-12"> <br> <br>
+		<h1 style="font-family:'Architects+Daughter';"> Forum-Template </h1>
+		<p >" A poor, who hates power, once become powerful, hates poor "</p>
+		<form class="form-inline"> 
+			<div class="input-group">
+				<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+				<input type="text" class="form-control" placeholder="Search Q/A"  size="100"required>
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-danger">Search</button>
+					</div>
+			</div>
+		</form>
+	</div>
+</div>
+	
+<!-- ********************************* middle Content **************************** -->
+<div class="container-fluid">
+	<div class="col-md-9">
+		
+			<ul class="nav nav-tabs nav-justified">
+			<li class="active"><a href="#home" aria-controls="home" data-toggle="tab">Latest</a></li>
+			<li><a href="#pending" data-toggle="tab">Pending</a></li>
+			<li><a href="#recommended" data-toggle="tab">Recommended</a></li>
+			<li><a href="#solved" data-toggle="tab">Solved</a></li>
+			<li><a href="#about" data-toggle="tab">About</a></li>
+		</ul>
+		<div class="col-md-12">
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active"> <br>
+					<div class="panel-group">
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 1</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 2</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a> 
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 3</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 4</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a> 
+							</div>
+						</div>
+					</div>	
+			</div>	
+				<div id="pending" class="tab-pane fade"> <br> 
+					<div class="panel-group">
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 1</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 2</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 3</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 4</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" >&nbsp;</i></a>
+							</div>
+						</div>
+					</div>	
+			</div>
+			<div id="recommended" class="tab-pane fade"> <br> 
+					<div class="panel-group">
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 1</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" >&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 2</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 3</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 4</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+					</div>	
+			</div>
+			<div id="solved" class="tab-pane fade"> <br> 
+					<div class="panel-group">
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 1</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" >&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 2</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 3</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 4</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" >&nbsp;</i></a>
+							</div>
+						</div>
+					</div>	
+			</div>	
+			<div id="about" class="tab-pane fade"> <br> 
+					<div class="panel-group">
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 1</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 2</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true">&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 3</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" >&nbsp;</i></a>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading"> Heading of Article 4</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+							<div class="panel-footer">
+									<button class="btn btn-warning">category 1</button>
+									<button class="btn btn-warning">category 2</button>
+									<button class="btn btn-warning">category 3</button>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Support"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Comment"><i class="fa fa-commenting fa-2x" aria-hidden="true">&nbsp;</i></a>
+									<a href="#" class="pull-right" data-placement="bottom" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" >&nbsp;</i></a>
+							</div>
+						</div>
+					</div>	
+			</div>
+			
+	</div>
+		</div>
+		
+		</div>
+		
+		<!---------------------------- POST ************************ -->
+		<div class="col-md-3"> <h1 class="text-info"> Recent Post </h1>
+			<div class="panel-group" id="parent">
+				<div class="panel panel-danger">
+						<div class="panel-heading "><a href="#col1" data-parent="#parent" data-toggle="collapse">Post 1 </a></div>
+						<div class="panel-collapse collapse" id="col1">
+						<div class="panel-body">This is POST 1</div>
+				</div>
+				</div>
+				
+				<div class="panel panel-danger">
+						<div class="panel-heading"><a href="#col2"data-parent="#parent"data-toggle="collapse">Post 2 </a></div>
+						<div class="panel-collapse collapse" id="col2">
+						<div class="panel-body">This is POST 2</div>
+				</div>
+				</div>
+				
+				<div class="panel panel-danger">
+						<div class="panel-heading"><a href="#col3" data-parent="#parent" data-toggle="collapse">Post 3 </a></div>
+						<div class="panel-collapse collapse" id="col3">
+						<div class="panel-body">This is POST 3</div>
+				</div>
+				</div>
+				<div class="panel panel-danger">
+						<div class="panel-heading"><a href="#col4" data-parent="#parent" data-toggle="collapse">Post 4 </a></div>
+						<div class="panel-collapse collapse" id="col4">
+						<div class="panel-body">This is POST 4</div>
+				</div>
+				</div>
+				<div class="panel panel-danger">
+						<div class="panel-heading"><a href="#col5" data-parent="#parent" data-toggle="collapse">Post 5 </a></div>
+						<div class="panel-collapse collapse" id="col5">
+						<div class="panel-body">This is POST 5</div>
+				</div>
+				</div>
+				<div class="panel panel-danger">
+						<div class="panel-heading"><a href="#col6" data-parent="#parent" data-toggle="collapse">Post 6 </a></div>
+						<div class="panel-collapse collapse" id="col6">
+						<div class="panel-body">This is POST 6</div>
+				</div>
+				</div>
+				<br>
+						<ul class="list-group">
+						<a href="#" class="list-group-item ">Category 1 <span class="badge">10</span></a>
+						<a href="#" class="list-group-item">Category 2 <span class="badge">28</span></a>
+						<a href="#" class="list-group-item">Category 3 <span class="badge">31</span></a>
+						<a href="#" class="list-group-item">Category 4 <span class="badge">27</span></a>
+						<a href="#" class="list-group-item">Category 5 <span class="badge">45</span></a>
+						<a href="#" class="list-group-item">Category 6 <span class="badge">80</span></a>
+						<a href="#" class="list-group-item">Category 7 <span class="badge">20</span></a>
+						<a href="#" class="list-group-item">Category 8 <span class="badge">40</span></a>
+						<a href="#" class="list-group-item">Category 9 <span class="badge">77</span></a>
+						<a href="#" class="list-group-item">Category 10 <span class="badge">58</span></a>
+						</ul>
+			</div>
+		</div>
+	</div>
+	<!-- ***************************** Footer ********************************************* -->
+	
+		
+			<footer style="background-color:black;color:grey;height:60px;width:100%;padding:15px 0px; font-size:15px;"> <center><span class="glyphicon glyphicon-hand-up"> </span> Designed by Tejas Wadke  <br> Copyrights &copy; 2017</center></footer>
+		
+	
+</body>
+</html>
